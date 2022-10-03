@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import HomeVue from '../components/HelloWorld.vue';
 import TestVue from '../components/Test.vue';
 
-const routes = [
+const routes = [    
     {
         path: "/",
         name: "Home",
@@ -16,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/ITTool/'),   //子網站放這
     routes,
 });
 

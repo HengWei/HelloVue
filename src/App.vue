@@ -1,14 +1,14 @@
 <template>
+    <navView></navView>
     <router-view></router-view>
 </template>
 
-<script>
-    //import HelloWorld from './components/HelloWorld.vue'
-
+<script>    
+    import navView from './components/navPage.vue'
     export default {
         name: 'App',
         components: {
-            //HelloWorld
+            navView
         }
     }
 </script>
@@ -20,6 +20,6 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 </style>
